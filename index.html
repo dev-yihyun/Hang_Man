@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hang Man</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+       <section class="game_ready" id="game_ready">
+           <div class="game_title">
+               <h1>Hang Man</h1>
+           </div>
+            <img src="images/pingu.png" alt="사진"/>
+            <div class="game_type">
+                <input type="button" value="fruit" id="fruit"/>
+                <input type="button" value="animal" id="animal"/>
+                <input type="button" value="nation" id="nation"/>
+                <input type="button" value="insect" id="insect"/>
+            </div>
+       </section>
+       <section class="game_play" id="game_play">
+            <div class="hang_area">
+                <div class="life_layout">
+                    <img src="images/0.png"/>
+                    <input type="button" value="reset" id="reset"/>
+                    <input type="button" value="replay" id="replay"/>
+                </div>
+                <div class="bw_layout">
+                    <div class="alphabtn_layout" id="al_btn">
+                    </div>
+                    <div class="wr_co" id="wr_co">
+                    </div>
+                    <div class="word_layout" id="word_layout">
+                    </div>
+                </div>
+            </div>
+       </section>
+    </div>
+    <script src="hangman.js"></script>
+</body>
+</html>

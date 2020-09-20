@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+*,body{
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    width: 2000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.game_ready{
+    background-color: #87ceeb;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.game_ready .game_title{
+    font-size: 90px;
+    font-family: 'Ranchers', cursive;
+}
+.game_ready img{
+    width: 500px;
+    height: 300px;   
+}
+.game_ready .game_type{
+    width: 800px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.game_ready .game_type input{
+    width: 150px;
+    height: 100%;
+    font-size: 25px;
+    font-family: 'Do Hyeon', sans-serif;
+    border: none;
+    border-radius: 20px;
+}
+.game_play{
+    background-color: #87ceeb;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.game_play .hang_area{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.hang_area .life_layout{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.hang_area .life_layout img{
+    width: 400px;
+    height: 500px;
+}
+.hang_area .life_layout input{
+    width: 100px;
+    height: 80px;
+    font-size: 25px;
+    font-family: 'Do Hyeon', sans-serif;
+    border-radius: 20px;
+    border: none;
+}
+.hang_area .bw_layout{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.hang_area .bw_layout .alphabtn_layout{
+    width: 100%;
+    height: 200px;
+}
+.hang_area .bw_layout .alphabtn_layout button{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Do Hyeon', sans-serif;
+    border: 3px solid;
+}
+.hang_area .bw_layout .wr_co{
+    width: 100%;
+    height: 120px;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Ranchers', cursive;
+}
+.hang_area .bw_layout .word_layout{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bw_layout .word_layout .word{
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+    float: left;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.game_type input:hover{
+    background-color: #d6d6d6;
+    border: 3px solid black;
+}
+.life_layout input:hover{
+    background-color: #d6d6d6;
+    border: 3px solid black;
+}
+.alphabtn_layout button:hover{
+    background-color: #d6d6d6;
+}
