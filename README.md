@@ -1,4 +1,4 @@
-# 👾[HangMan](https://dev-yihyun.github.io/Hang_Man/)🎮
+# 🔗[HangMan](https://dev-yihyun.github.io/Hang_Man/)🎮
 
 <p align="center">
   <img src="https://github.com/dev-yihyun/Hang_Man/assets/67820737/fe45ba04-f8de-4780-8aa7-72b0da259526">
